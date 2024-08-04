@@ -1,6 +1,0 @@
-PASSIVE_MODULES = {"Vitality", "Armor Capacity", "AUX Capacity", "Armor Regen", "AUX Regen"}
-WEAPON_MODULES = {"Impact", "Bruteforce", "Crits", "Clip Size", "Ammo Regen", "Reserve Size"}
-MOVEMENT_MODULES = {"Jetpack", "Teleport", "Cloak", "Long Jump", "Stimpack"}
-PROJECTILE_MODULES = {"Energy Ball", "Fletchettes", "Poison Spit", "Ice Grenade", "Fire Grenade", "Cluster Grenade"}
-TARGET_MODULES = {"Heal", "Armor Boost", "AUX Share", "Shield", "Inspire", "Rush", "Mark For Death", "Weaken", "Plague", "Confusion"}
-DEPLOY_MODULES = {"Lasers", "Turrets", "Gravity Mine", "Landmine", "Slowfield", "Dispenser"}

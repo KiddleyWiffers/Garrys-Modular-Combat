@@ -1,9 +1,0 @@
-"gmc"
-{
-	"title"		"Garry's Modular Combat"
-	"base"		"base"
-	"category"	"pve"
-	"maps"		"^dm_"
-	"menusystem"    "1"
-	
-}
