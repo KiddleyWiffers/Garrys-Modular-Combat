@@ -1,0 +1,18 @@
+This is less of a hardfast rule and more of a general guide.
+
+Tier 1- 10 second respawn.
+Pistol - 54 bullets
+SMG - 90 bullets
+
+Tier 2 - 20 second respawn
+AR2 - 30 bullets
+Shotgun - 8 Shells
+Grenade - 2 Grenades
+
+Tier 3 - 30 second respawn
+357 - 6 bullets
+Crossbow - 4 bolts
+SLAM - 1 slam
+
+Tier 4 - 60 second respawn
+Rocket Launcher - 2 Rockets

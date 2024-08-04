@@ -1,0 +1,77 @@
+DEPLOY_MODULES = {"Lasers", "Turrets", "Gravity Mine", "Landmine", "Slowfield", "Dispenser"}
+
+-- Weapon Modules
+
+Crits - Active 10
+Attacks deal 2x damage, but player is slowed to 20% max movement speed and drains 15 aux a second.
+Every level reduces the AUX drain by one and the movement debuff by 2%.
+
+Ammo Regen - ??? 10
+1. Active ability that fabricates ammo for current weapon.
+2. Ammo regened is set by server owner using convars?
+3. Some kind of dispenser that gives out ammo for all the weapons a player has?
+
+-- Movement Modules
+
+Teleport- Active 10
+Allows the user to
+1. teleport to where the crosshair is currently pointed.
+2. place two portals only they (or their team?) can see or access
+3. place two portals anyone can use.
+
+Cloak- Active 1
+Drains 0.01 * movespeed aux per second and renders the user almost completely invisible.
+REMEMBER YOU NEED TO FIX THE BUG WHERE YOU CAN SEE DECALS ON A CLOAKED PLAYER!
+
+Stimpack- Active 5
+Uses aux to increase the players animation speed by 5% (up to 25%) for 5 + level seconds.
+
+-- Projectile Modules
+Energy Ball - Active
+Fires a combine ball that deals 50 + (Level * 10) damage and moves at a rate of 200 + (10 * Level) HU.
+
+Fletchettes - Active
+Fires 8 hunter fletchettes for 2 * Level impact damage and explode for 20 + (2 * Level) damage.
+Costs no energy, is basically free damage allowing for a player to have a damage option if ammo and AUX are expended.
+
+Poison Dart - Active
+Set target's health to (Current Health - (10*Level)) with a miniumum of 1 HP. 
+This damage will heal over time like a poison headcrab, but will only heal 80% of the damage done.
+
+Ice Grenade - Active
+Does 5 * Level damage and slows every enemy in a range of 200 HU. The slow is at a rate of 10% + (5% * Level).
+
+Fire Grenade- Active ?
+Ignites players for ???
+
+Cluster Grenade - Active 5
+Fires 5 + (Level) grendes that do 50 damage and explode after a short delay.
+
+-- Target Modules
+Shield Amp- Active 10
+Locks the user or targets armor to max for level seconds. Users armor will remain at full charge after the effect ends, but can be damaged.
+
+Shield- Active 3
+Creates a bubble shield that the user (and their team?) can shoot through, but enemies cannot. This shield lasts for (10 * level) seconds.
+
+Insipre- Active 10
+Nearby Teammates and Minions are given (5 * level)% damage. This effect is also granted to the caster, but is only half as powerful.
+Either will have a 10 second timer or will be active until the user runs out of AUX (or gets killed).
+
+Rush- Active 10
+Nearby Teammates and Minions are given (10 * level)% movespeed. This effect is also granted to the caster, but is only half as powerful.
+Either will have a 10 second timer or will be active until the user runs out of AUX (or gets killed).
+
+Mark for Death- Active 10
+Mark an enemy, this enemy will take 20*level% increased damage from all sources for 10 seconds. 50% of the damage dealt is routed to the players XP?
+
+Weaken - Active 10
+Mark an enemy, this enemy will do 8*level% less damage for 10 seconds.
+
+Plauge- Active 5
+Mark an enemy, this enemy will take 5 * level damage per second. This effect will spread to nearby enemies in a radius of 30 * level HU.
+If the player is killed the effect is lost on all active plauge cases. Plauge can also be cured on players and minions with healing.
+
+Confusion- Active 3
+On NPCs- Causes the target NPC temporarily (10 * level seconds) hate everything, attacking any nearby enemy. Any damage done by this NPC while confused will be credited towards the user.
+On players- Inverts the targets controls for (3 * level) seconds.
